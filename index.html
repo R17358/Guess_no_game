@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <script src="script.js"></script>
+  <div class="reset">
+  <button onClick="again()">Again!</button>
+  <p>Select Number from 1 to 20</p>
+  </div>
+  <h1>GUESS <span>MY</span> NUMBER</h1>
+<hr>
+  <div class="box">
+  <input type="text" id="num" value="?" disabled>
+    </div>
+  <div class="main">
+  <div class="first">  
+  <div>
+    <br>
+    <input type="number" id="in">
+    <br><br><br>
+    <button onClick="check()">Check!</button>
+  </div></div>
+  <div class="right">
+    <p id="state">Start....</p>
+    <p>Score:<span id="score">0</span></p>
+    <p>High Score:<span id="h_score">0</span></p>
+  </div>
+  </div>
+  <br><br>
+ <div>
+   <button onClick="guess()">Guess!</button>
+   <br><br>
+   <button onClick="show()">Show!</button>
+ </div>
+</body>
+
+</html>
